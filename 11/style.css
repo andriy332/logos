@@ -1,6 +1,7 @@
 *{
    	margin: 0;
     	padding: 0;
+	margin:0 auto;
 }
 body{
  	font-size: 16px;
@@ -8,11 +9,12 @@ body{
  	background-image: url(bg.png);
 }
 .registration-form{
-	margin: 0 auto;
 	width:50%;
    	heigth:auto;
 	padding: flex;
+	margin:0 auto;
 	justify-content:center;
+	margin:0 auto;
    	background-image: url(bg.png);
 }
 /* form-field{ */
@@ -26,6 +28,8 @@ body{
 	flex: 1 1 auto;
 	padding:5px;
 	border-radius: 3px;
+	margin:0 auto;
+	justify-content:center;
 	border: 1px solid gray;
 	outline:0;
 }
@@ -36,6 +40,8 @@ body{
 	heigth:200px;
         width:auto;
 	box-shadow:0 white !importtant;
+	margin:0 auto;
+	justify-content:center;
 }
 .submit-btn{
   text-decoration: none;
@@ -47,14 +53,19 @@ body{
   font-family: comic sans ms;
   letter-spacing: 0.5px;
   background-color:green;
+  margin:0 auto;
+  justify-content:center;
 }
 .welcome-text{
-	
+	margin:0 auto;
+	justify-content:center;
 	color:gray;
 	margin:20px 0 50px;
 }
 .input-field{
  	flex: 1 0 auto;
+	margin:0 auto;
+	justify-content:center;
 }
 .description-text{
 	color: gray:
@@ -63,4 +74,6 @@ body{
 	width:500px;
 	margin: 20px 0 50px;
         text-align:center;
+	margin:0 auto;
+	justify-content:center;
 }
