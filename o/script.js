@@ -17,9 +17,9 @@ const func = (id) => {
    j = id % 3;
    if(counter % 2){
     game[i] [j] = 'o'
+    
     document.getElementById("0").value = "o";
     document.getElementById("3").value = "x";
-   
 }
    console.log(game);
    counter++;
