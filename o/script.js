@@ -18,6 +18,8 @@ const func = (id) => {
    if(counter % 2){
     game[i] [j] = 'o'
     
+    document.getElementById("0").disabled = true;
+    document.getElementById("3").disabled = true;
     document.getElementById("0").value = "o";
     document.getElementById("3").value = "x";
 }
@@ -36,6 +38,8 @@ const func1 = (id) => {
    j = id % 3;
    if(counter1 % 2){
     game[i] [j] = '1'
+    document.getElementById("1").disabled = true;
+    document.getElementById("2").disabled = true;
     document.getElementById("1").value = "o";
     document.getElementById("2").value = "x";
    
@@ -55,6 +59,8 @@ const func2 = (id) => {
    j = id % 3;
    if(counter2 % 2){
     game[i] [j] = '1'
+    document.getElementById("2").disabled = true;
+    document.getElementById("5").disabled = true;
     document.getElementById("2").value = "o";
     document.getElementById("5").value = "x";
    
@@ -74,6 +80,8 @@ const func3 = (id) => {
    j = id % 3;
    if(counter3 % 2){
     game[i] [j] = '1'
+    document.getElementById("3").disabled = true;
+    document.getElementById("7").disabled = true;
     document.getElementById("3").value = "o";
     document.getElementById("7").value = "x";
    
@@ -92,6 +100,8 @@ const func4 = (id) => {
    j = id % 3;
    if(counter4 % 2){
     game[i] [j] = '1'
+    document.getElementById("4").disabled = true;
+    document.getElementById("3").disabled = true;
     document.getElementById("4").value = "o";
     document.getElementById("3").value = "x";
    
@@ -111,6 +121,8 @@ const func5 = (id) => {
    j = id % 3;
    if(counter5 % 2){
     game[i] [j] = '1'
+    document.getElementById("6").disabled = true;
+    document.getElementById("5").disabled = true;
     document.getElementById("6").value = "x";
     document.getElementById("5").value = "o";
 }
@@ -129,6 +141,7 @@ const func6 = (id) => {
    j = id % 3;
    if(counter6 % 2){
     game[i] [j] = '1'
+    document.getElementById("6").disabled = true;
     document.getElementById("6").value = "o";
    
 }
@@ -147,6 +160,7 @@ const func7 = (id) => {
    j = id % 3;
    if(counter7 % 2){
     game[i] [j] = '1'
+    document.getElementById("7").disabled = true;
     document.getElementById("7").value = "o";
    
 }
@@ -166,6 +180,8 @@ const func8 = (id) => {
    j = id % 3;
    if(counter7 % 2){
     game[i] [j] = '1'
+    document.getElementById("8").disabled = true;
+    document.getElementById("7").disabled = true;
     document.getElementById("8").value = "o";
     document.getElementById("7").value = "x";
    
